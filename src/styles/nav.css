@@ -29,3 +29,11 @@ nav img{
 }
 
 
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 4vmax;
+    width: 40px;
+    display: none;
+    cursor: pointer;
+}

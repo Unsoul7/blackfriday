@@ -66,14 +66,14 @@
 }
 
 .c-container {
-    width: 200px;
+    width: 20vmax;
     /* height: 200px; */
     border: 1px solid white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 2vmax;
     color: white;
 }
 

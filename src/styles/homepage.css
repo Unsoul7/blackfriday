@@ -1,17 +1,16 @@
-
-#homepage-ad1{
+#homepage-ad1 {
     background: url('https://websitedemos.net/black-friday-04/wp-content/uploads/sites/1419/2023/11/bg-006.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    margin: 5rem 5rem;
+    margin: 5rem 5vmax;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 4rem;
 }
 
-#homepage-ad1 div{
+#homepage-ad1 div {
     width: 50%;
     text-align: left;
     /* padding: 30px; */
@@ -21,7 +20,7 @@
 
 }
 
-#homepage-ad1 h2{
+#homepage-ad1 h2 {
     font-size: 2.5vmax;
     font-family: 'Kaushan Script';
     color: rgb(255, 36, 36);
@@ -29,7 +28,7 @@
 }
 
 
-#homepage-ad1 h1{
+#homepage-ad1 h1 {
     font-size: 6.5vmax;
     line-height: 70px;
     font-family: 'League Gothic';
@@ -40,21 +39,21 @@
     padding: 10px 0;
 }
 
-#homepage-ad1 img{
-    width: 30rem;
-    
+#homepage-ad1 img {
+    width: 30vmax;
+
     padding: 2rem;
     margin-left: 3rem;
 }
 
 
-#homepage-ad1 p{
+#homepage-ad1 p {
     color: white;
     font-size: 16px;
-    line-height:24px;
+    line-height: 24px;
 }
 
-#ad1-btn{
+#ad1-btn {
     text-align: center;
     padding: 8px 20px;
     text-decoration: none;
@@ -63,23 +62,23 @@
     text-transform: uppercase;
     font-family: 'League Gothic';
     font-size: 25px;
-    width: 30%;
+    width: 15vmax;
     margin-top: 30px;
 }
 
-#homepage-ad2{
-    margin: 5rem 5rem;
+#homepage-ad2 {
+    margin: 5rem 5vmax;
     display: flex;
     justify-content: space-between;
     position: relative;
 }
 
-#homepage-ad2 img:nth-child(2){
-    width: 35rem;
-    margin-left: 4rem;
+#homepage-ad2 img:nth-child(2) {
+    width: 50vmax;
+    margin-left: 3vmax;
 }
 
-#homepage-ad2 img:nth-child(3){
+#homepage-ad2 img:nth-child(3) {
     position: absolute;
     width: 10rem;
     right: 45%;
@@ -87,7 +86,7 @@
 }
 
 
-#homepage-ad2 div{
+#homepage-ad2 div {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -96,14 +95,14 @@
     padding-top: 15rem;
 }
 
-#homepage-ad2 div h2{
+#homepage-ad2 div h2 {
     font-size: 2.5vmax;
     font-family: 'Kaushan Script';
     color: rgb(255, 36, 36);
     font-weight: 100;
 }
 
-#homepage-ad2 div h1{
+#homepage-ad2 div h1 {
     font-size: 6.5vmax;
     line-height: 70px;
     font-family: 'League Gothic';
@@ -116,20 +115,20 @@
 }
 
 
-#homepage-ad2 div h1 span{
+#homepage-ad2 div h1 span {
 
     color: rgb(255, 36, 36);
 }
 
-#homepage-ad2 div p{
+#homepage-ad2 div p {
     color: white;
     font-size: 16px;
-    line-height:24px;
+    line-height: 24px;
     text-align: left;
     margin: 20px 0;
 }
 
-#homepage-ad3 div:first-child{
+#homepage-ad3 div:first-child {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -137,14 +136,14 @@
 }
 
 
-#homepage-ad3 div:first-child h2{
+#homepage-ad3 div:first-child h2 {
     font-size: 3vmax;
     color: rgb(255, 36, 36);
     font-family: 'Kaushan Script';
     font-weight: 100;
 }
 
-#homepage-ad3 div:first-child h1{
+#homepage-ad3 div:first-child h1 {
     font-size: 6vmax;
     color: white;
     font-family: 'League Gothic';
@@ -154,56 +153,57 @@
 }
 
 
-#homepage-ad3 div:first-child div{
-    width: 100px;    
+#homepage-ad3 div:first-child div {
+    width: 100px;
     background: white;
     height: 2px;
     margin: 20px 0;
 }
 
-#homepage-ad3 div:last-child{
+#homepage-ad3 div:last-child {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     /* background: red; */
 }
 
-.product{
-    /* margin: 20px 10px; */
+.product {
+    margin: 20px 15px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start !important; 
+    align-items: flex-start !important;
     position: relative;
 }
 
-.pro-container{
-    margin: 0 5rem;
+.pro-container {
+    margin: 0 5vmax;
 }
 
-.product img{
+.product img {
     width: 15rem;
 }
 
 
-.product h2{
+.product h2 {
     color: white;
-    
+
     font-family: "League Gothic" !important;
     text-transform: uppercase;
     color: white !important;
     font-size: 2vmax !important;
 }
 
-.product p{
+.product p {
     color: white;
 }
 
-.product strike{
+.product strike {
     color: rgb(134, 134, 134);
 }
 
-#off{
+#off {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -212,10 +212,10 @@
     border-radius: 20px;
 }
 
-#homepage-ad4{
+#homepage-ad4 {
     height: 100vh;
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://websitedemos.net/black-friday-04/wp-content/uploads/sites/1419/2023/11/bg-07.jpg');
-    margin:8rem 5rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://websitedemos.net/black-friday-04/wp-content/uploads/sites/1419/2023/11/bg-07.jpg');
+    margin: 8rem 5vmax;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -224,7 +224,7 @@
     justify-content: center;
 }
 
-#homepage-ad4 h2{
+#homepage-ad4 h2 {
     font-size: 2.5vmax;
     font-family: 'Kaushan Script';
     font-weight: 100;
@@ -233,7 +233,7 @@
     padding: 10px 0;
 }
 
-#homepage-ad4 h1{
+#homepage-ad4 h1 {
     font-size: 6vmax;
     font-family: 'League Gothic';
     font-weight: 100;
@@ -246,7 +246,7 @@
     padding-left: 5rem;
 }
 
-#homepage-ad4 h1 span{
+#homepage-ad4 h1 span {
     color: rgb(255, 36, 36);
 }
 
@@ -272,26 +272,26 @@
 }
 
 
-footer{
+footer {
     background:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #070707),
-    url('https://websitedemos.net/black-friday-04/wp-content/uploads/sites/1419/2023/11/bg-01-b.jpg') no-repeat center center;
-background-size: cover;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-padding: 5rem 0;
+        linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #070707),
+        url('https://websitedemos.net/black-friday-04/wp-content/uploads/sites/1419/2023/11/bg-01-b.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0;
 }
 
-footer h2{
+footer h2 {
     font-size: 2.5vmax;
     color: rgb(255, 36, 36);
     font-family: 'Kaushan Script';
     font-weight: 100;
 }
 
-footer h1{
+footer h1 {
     font-size: 6vmax;
     font-family: 'League Gothic';
     font-weight: 100;
@@ -303,11 +303,11 @@ footer h1{
     /* padding: 20px 0; */
 }
 
-footer h1 span{
+footer h1 span {
     color: rgb(255, 36, 36);
 }
 
-#footer-ad-btn{
+#footer-ad-btn {
     color: white;
     background: rgb(255, 36, 36);
     font-size: 1.6vmax;
@@ -316,14 +316,14 @@ footer h1 span{
     padding: 10px 20px;
 }
 
-footer p{
+footer p {
     color: white;
     font-size: 1.2vmax;
     width: 50%;
     padding: 30px 0;
 }
 
-.copyright-section{
+.copyright-section {
     color: white;
     display: flex;
     align-items: center;
@@ -332,7 +332,7 @@ footer p{
     border-top: 1px solid white;
 }
 
-.copyright-section p{
+.copyright-section p {
     font-family: 'Noto Sans';
 
 }

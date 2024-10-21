@@ -1,0 +1,174 @@
+@media only screen and (max-width:916px) {
+    .menu-btn {
+        display: block;
+    }
+
+    nav div {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav-btn {
+        text-align: left;
+        padding: 20px 30px;
+        border-bottom: 0.5px solid white;
+        background: #272727;
+        width: 100%;
+    }
+
+    .hidden {
+        top: -100%;
+
+    }
+
+    #logo {
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+
+    nav img {
+        display: none;
+    }
+
+
+    .main-headings h1 {
+        line-height: 70px;
+        font-size: 12vmax;
+    }
+
+    #homepage-ad1 {
+        flex-direction: column;
+        padding: 2rem 0;
+
+    }
+
+    #homepage-ad1 h1,
+    h2,
+    p {
+        text-align: center;
+        line-height: 40px;
+    }
+
+
+    #homepage-ad1 h1 {
+        width: 100%;
+        font-size: 8vmax;
+    }
+
+    #homepage-ad1 a {
+        width: 50%;
+        font-size: 3vmax;
+
+
+    }
+
+    #homepage-ad1 div {
+        align-items: center;
+    }
+
+    #homepage-ad1 img {
+        margin: 0;
+        width: 40vmax;
+    }
+
+
+    #homepage-ad2 {
+        margin: 0rem 5vmax;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+    #homepage-ad2 div a {
+        width: 8rem;
+        font-size: 3vmax;
+    }
+
+    #homepage-ad2 div p {
+        margin: 0;
+        padding: 0;
+    }
+
+    #homepage-ad2 div h1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    #homepage-ad2 div h2 {
+        margin: 0;
+        padding: 0;
+    }
+
+    #homepage-ad2 div {
+        margin: 0;
+        padding: 0;
+    }
+
+    #homepage-ad2 img:nth-child(2) {
+        width: 50vmax;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    #homepage-ad2 img:nth-child(3) {
+        top: unset;
+        bottom: -40px;
+        width: 20vmax;
+        left: 40px;
+    }
+
+    #homepage-ad3 {
+        margin-top: 5rem;
+    }
+
+    .copyright-section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .copyright-section div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .copyright-section div .nav-btn{
+        background: none;
+        border: none;
+        text-align: center;
+    }
+
+    footer p{
+        font-size: 3vmax;
+        line-height: 30px;
+    }
+
+    #homepage-ad4 h1{
+        line-height: 40px;
+    }
+
+    #homepage-ad4 h2{
+        font-size: 4vmax;
+    }
+
+    #homepage-ad4 p{
+        font-size: 4vmax;
+    }
+
+    
+    #homepage-ad4 a{
+        font-size: 3vmax;
+    }
+
+    #footer-ad-btn{
+        font-size: 4vmax;
+
+    }
+}
