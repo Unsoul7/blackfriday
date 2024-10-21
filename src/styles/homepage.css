@@ -1,0 +1,272 @@
+
+#homepage-ad1{
+    background: url('https://websitedemos.net/black-friday-04/wp-content/uploads/sites/1419/2023/11/bg-006.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+#homepage-ad1 div{
+    width: 50%;
+    text-align: left;
+    /* padding: 30px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#homepage-ad1 h2{
+    font-size: 2.5vmax;
+    font-family: 'Kaushan Script';
+    color: rgb(255, 36, 36);
+    font-weight: 100;
+}
+
+
+#homepage-ad1 h1{
+    font-size: 6.5vmax;
+    line-height: 70px;
+    font-family: 'League Gothic';
+    color: white;
+    font-weight: 200;
+    text-transform: uppercase;
+    line-clamp: 3;
+    padding: 10px 0;
+}
+
+#homepage-ad1 img{
+    width: 30rem;
+    
+    padding: 2rem;
+    margin-left: 3rem;
+}
+
+
+#homepage-ad1 p{
+    color: white;
+    font-size: 16px;
+    line-height:24px;
+}
+
+#ad1-btn{
+    text-align: center;
+    padding: 8px 20px;
+    text-decoration: none;
+    background: rgb(255, 36, 36);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'League Gothic';
+    font-size: 25px;
+    width: 30%;
+    margin-top: 30px;
+}
+
+#homepage-ad2{
+    margin: 5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#homepage-ad2 img:nth-child(2){
+    width: 35rem;
+    margin-left: 4rem;
+}
+
+#homepage-ad2 img:nth-child(3){
+    position: absolute;
+    width: 10rem;
+    right: 45%;
+    top: 5%;
+}
+
+
+#homepage-ad2 div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-top: 15rem;
+}
+
+#homepage-ad2 div h2{
+    font-size: 2.5vmax;
+    font-family: 'Kaushan Script';
+    color: rgb(255, 36, 36);
+    font-weight: 100;
+}
+
+#homepage-ad2 div h1{
+    font-size: 6.5vmax;
+    line-height: 70px;
+    font-family: 'League Gothic';
+    color: white;
+    font-weight: 200;
+    text-transform: uppercase;
+    line-clamp: 3;
+    padding: 10px 0;
+    text-align: left;
+}
+
+
+#homepage-ad2 div h1 span{
+
+    color: rgb(255, 36, 36);
+}
+
+#homepage-ad2 div p{
+    color: white;
+    font-size: 16px;
+    line-height:24px;
+    text-align: left;
+    margin: 20px 0;
+}
+
+#homepage-ad3 div:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#homepage-ad3 div:first-child h2{
+    font-size: 3vmax;
+    color: rgb(255, 36, 36);
+    font-family: 'Kaushan Script';
+    font-weight: 100;
+}
+
+#homepage-ad3 div:first-child h1{
+    font-size: 6vmax;
+    color: white;
+    font-family: 'League Gothic';
+    font-weight: 100;
+    text-transform: uppercase;
+
+}
+
+
+#homepage-ad3 div:first-child div{
+    width: 100px;    
+    background: white;
+    height: 2px;
+    margin: 20px 0;
+}
+
+#homepage-ad3 div:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    /* background: red; */
+}
+
+.product{
+    /* margin: 20px 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important; 
+    position: relative;
+}
+
+.pro-container{
+    margin: 0 5rem;
+}
+
+.product img{
+    width: 15rem;
+}
+
+
+.product h2{
+    color: white;
+    
+    font-family: "League Gothic" !important;
+    text-transform: uppercase;
+    color: white !important;
+    font-size: 2vmax !important;
+}
+
+.product p{
+    color: white;
+}
+
+.product strike{
+    color: rgb(134, 134, 134);
+}
+
+#off{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #00000046;
+    padding: 5px 8px;
+    border-radius: 20px;
+}
+
+#homepage-ad4{
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://websitedemos.net/black-friday-04/wp-content/uploads/sites/1419/2023/11/bg-07.jpg');
+    margin:8rem 5rem;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#homepage-ad4 h2{
+    font-size: 2.5vmax;
+    font-family: 'Kaushan Script';
+    font-weight: 100;
+    text-align: center;
+    color: rgb(255, 36, 36);
+    padding: 10px 0;
+}
+
+#homepage-ad4 h1{
+    font-size: 6vmax;
+    font-family: 'League Gothic';
+    font-weight: 100;
+    text-align: left;
+    color: white;
+    width: 70%;
+    text-transform: uppercase;
+    line-height: 70px;
+    align-self: flex-start;
+    padding-left: 5rem;
+}
+
+#homepage-ad4 h1 span{
+    color: rgb(255, 36, 36);
+}
+
+
+#homepage-ad4 p {
+    color: white;
+    font-family: 'League Gothic';
+    font-size: 2.5vmax;
+    font-weight: 100;
+    padding-top: 40px;
+}
+
+#ad4-btn {
+    padding: 15px 30px;
+    background: rgb(255, 36, 36);
+    color: white;
+    font-family: 'League Gothic';
+    font-weight: 100;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.8vmax;
+    margin-top: 30px;
+}
