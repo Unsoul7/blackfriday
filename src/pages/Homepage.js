@@ -3,6 +3,7 @@ import { Hero } from "../components/Hero";
 import '../styles/homepage.css'
 import { Link } from "react-router-dom";
 import { Product } from "../components/Product";
+import { Footer } from "../components/Footer";
 
 export const Homepage = () => {
 
@@ -38,10 +39,10 @@ export const Homepage = () => {
                     <div></div>
                 </div>
                 <div className="pro-container">
-                    <Product/>
-                    <Product/>
-                    <Product/>
-                    <Product/>
+                    <Product />
+                    <Product />
+                    <Product />
+                    <Product />
                 </div>
             </div>
 
@@ -50,11 +51,20 @@ export const Homepage = () => {
                 </h2>
                 <h1>Save Big: Up to <span>60% Off</span> on All Headphones</h1>
                 <p>Act Fast Before They're Gone</p>
-
-
                 <Link id="ad4-btn" to='#'>SHOP NOW</Link>
+            </div>
 
+            <Footer/>
+
+            <div className="copyright-section">
+                <p>Copyright Independent | Powered by RotCode90 Developer</p>
+                <div>
+                    <Link className="nav-btn" to=''>HOME</Link>
+                    <Link className='nav-btn' to=''>SHOP</Link>
+                    <Link className="nav-btn" to=''>ABOUT</Link>
+                    <Link className="nav-btn" to=''>CONTACT</Link>
                 </div>
+            </div>
         </div>
     )
 }

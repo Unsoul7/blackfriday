@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-
+import up from '../assets/up.png'
 import { Navbar } from "./Navbar";
 import '../styles/hero.css'
 
@@ -35,7 +35,8 @@ export const Hero = () => {
 
 
     return(
-        <div className="hero-section">
+        <div className="hero-section" id="hero-sec">
+            <a href="#hero-sec" id="upar"><img src={up} alt="" /></a>
             <Navbar/>
             <div className="main-headings">
                 <h2>Hurry, Black Friday is Almost Here!</h2>

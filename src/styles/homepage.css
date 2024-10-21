@@ -270,3 +270,69 @@
     font-size: 1.8vmax;
     margin-top: 30px;
 }
+
+
+footer{
+    background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #070707),
+    url('https://websitedemos.net/black-friday-04/wp-content/uploads/sites/1419/2023/11/bg-01-b.jpg') no-repeat center center;
+background-size: cover;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 5rem 0;
+}
+
+footer h2{
+    font-size: 2.5vmax;
+    color: rgb(255, 36, 36);
+    font-family: 'Kaushan Script';
+    font-weight: 100;
+}
+
+footer h1{
+    font-size: 6vmax;
+    font-family: 'League Gothic';
+    font-weight: 100;
+    text-align: center;
+    line-height: 65px;
+    width: 45%;
+    text-transform: uppercase;
+    color: white;
+    /* padding: 20px 0; */
+}
+
+footer h1 span{
+    color: rgb(255, 36, 36);
+}
+
+#footer-ad-btn{
+    color: white;
+    background: rgb(255, 36, 36);
+    font-size: 1.6vmax;
+    text-decoration: none;
+    font-family: 'League Gothic';
+    padding: 10px 20px;
+}
+
+footer p{
+    color: white;
+    font-size: 1.2vmax;
+    width: 50%;
+    padding: 30px 0;
+}
+
+.copyright-section{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-top: 1px solid white;
+}
+
+.copyright-section p{
+    font-family: 'Noto Sans';
+
+}
