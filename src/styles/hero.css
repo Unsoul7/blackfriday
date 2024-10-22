@@ -25,7 +25,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 8rem !important;
-    padding: 0 4rem;
+    padding: 0 4vmax;
 }
 
 .main-headings h1 {
@@ -66,7 +66,7 @@
 }
 
 .c-container {
-    width: 20vmax;
+    width: 20vmin;
     /* height: 200px; */
     border: 1px solid white;
     display: flex;
@@ -78,10 +78,15 @@
 }
 
 .c-container h1 {
-    font-size: 12vmax;
+    font-size: 12vmin;
     font-family: 'League Gothic';
     font-weight: 100;
     color: white;
+
+}
+
+.c-container p {
+    font-size: 2vmin;
 
 }
 
